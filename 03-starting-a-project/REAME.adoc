@@ -1,0 +1,35 @@
+:imagesdir: images
+:couchbase_version: current
+:toc:
+:project_id: gs-how-to-cmake
+:icons: font
+:source-highlighter: prettify
+:tags: guides,meta
+
+= Setting up project
+
+Install the go-lang by download from here
+    * https://golang.org/[golang official website]
+Install vscode
+    * https://code.visualstudio.com/[vscode]
+Install GO Extension Plugin - From GO team at google. 
+The go plugin actually doesn't provide a lot of the functionality itslef.
+It delgates out to third-party libraries that have optimzed themselves for 
+a specific problem that they're trying to solve.
+ctrl + shift + p --> GO:Install/Update Tools
+Click check bok on the top to install all of them
+
+Write a simple example helloworld.go and save (ctrl + s)
+
+From terminal go run main.go
+
+In go world instead of workspace/project space to house our source code is
+called module.
+
+$ mkdir ~/git/code
+$ cd ~/git/code
+# go mod init github.com/pluralsight/webservice
+$ go mod init <module_name>
+# create and edit main.go for helloworld
+$ touch main.go
+$ go run github.com/pluralsight/webservice
