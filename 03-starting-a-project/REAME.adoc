@@ -33,3 +33,5 @@ $ go mod init <module_name>
 # create and edit main.go for helloworld
 $ touch main.go
 $ go run github.com/pluralsight/webservice
+$ go run .
+$ go build github.com/pluralsight/webservice
