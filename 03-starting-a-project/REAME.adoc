@@ -17,7 +17,7 @@ The go plugin actually doesn't provide a lot of the functionality itslef.
 It delgates out to third-party libraries that have optimzed themselves for 
 a specific problem that they're trying to solve.
 ctrl + shift + p --> GO:Install/Update Tools
-Click check bok on the top to install all of them
+Click check box on the top to install all of them
 
 Write a simple example helloworld.go and save (ctrl + s)
 
