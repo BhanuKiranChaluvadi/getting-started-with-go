@@ -35,3 +35,4 @@ $ touch main.go
 $ go run github.com/pluralsight/webservice
 $ go run .
 $ go build github.com/pluralsight/webservice
+$ go build .
