@@ -12,11 +12,14 @@ Install the go-lang by download from here
     * https://golang.org/[golang official website]
 Install vscode
     * https://code.visualstudio.com/[vscode]
-Install GO Extension Plugin - From GO team at google. 
+Install GO Extension Plugin - From GO team at google.
+
 The go plugin actually doesn't provide a lot of the functionality itslef.
 It delgates out to third-party libraries that have optimzed themselves for 
 a specific problem that they're trying to solve.
+
 ctrl + shift + p --> GO:Install/Update Tools
+
 Click check box on the top to install all of them
 
 Write a simple example helloworld.go and save (ctrl + s)
