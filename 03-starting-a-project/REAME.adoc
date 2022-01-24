@@ -43,4 +43,4 @@ $ go build .
 
 go mod inti <module_name>
 
-go mod ini
+go mod tidy
